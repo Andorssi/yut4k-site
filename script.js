@@ -14,3 +14,6 @@ headings.forEach((h, i) => {
   li.appendChild(a);
   tocList.appendChild(li);
 });
+
+document.getElementById("last-modified").textContent =
+  document.lastModified;

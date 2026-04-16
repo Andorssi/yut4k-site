@@ -45,3 +45,41 @@ td, th {
 th {
   background: #eee;
 }
+
+footer {
+  background: #2f2f2f;
+  color: #ddd;
+  margin-top: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  font-size: 14px;
+}
+
+.footer-center a {
+  color: #9ecbff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-center a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  font-size: 12px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #555;
+}
