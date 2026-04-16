@@ -97,12 +97,12 @@ footer {
   border-top: 1px solid #555;
 }
 
-.center-image {
+.center-fig {
   text-align: center;
   margin: 20px 0;
 }
 
-.center-image img {
+.center-fig img {
   max-width: 20%;
   height: auto;
 }
