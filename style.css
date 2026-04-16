@@ -26,6 +26,19 @@ main {
 .toc {
   background: #fafafa;
   padding: 10px;
+  border-left: 1px solid #ccc;
+
+  position: sticky;
+  top: 10px;
+  height: fit-content;
+}
+
+.toc ul {
+  padding-left: 15px;
+}
+
+.toc a {
+  font-size: 14px;
 }
 
 a {
