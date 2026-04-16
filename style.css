@@ -106,3 +106,9 @@ footer {
   max-width: 20%;
   height: auto;
 }
+
+.caption {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
