@@ -2,41 +2,64 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Wiki Layout</title>
+  <title>高橋優作の独り言</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Site Title</h1>
+  <h1>高橋優作の独り言</h1>
 </header>
 
 <div class="container">
 
+  
   <aside class="sidebar">
     <ul>
-      <li>メニュー1</li>
-      <li>メニュー2</li>
+      <li><a href="#">トップ</a></li>
+      <li><a href="#">研究内容</a></li>
+      <li><a href="#">趣味</a></li>
     </ul>
   </aside>
 
-  <main>
-    <h2>タイトル</h2>
-    <p>本文</p>
+  <!-- メイン -->
+  <main id="content">
+    <h1>サンプルページ</h1>
+
+    <h2>概要</h2>
+    <p>これはWiki風レイアウトのテンプレートです。</p>
+
+    <h2>特徴</h2>
+    <ul>
+      <li>左メニュー</li>
+      <li>中央本文</li>
+      <li>右目次</li>
+    </ul>
+
+    <h2>表の例</h2>
+    <table>
+      <tr><th>項目</th><th>内容</th></tr>
+      <tr><td>UAV</td><td>ドローン</td></tr>
+      <tr><td>通信</td><td>ネットワーク</td></tr>
+    </table>
+
+    <h2>詳細</h2>
+    <p>ここに長文を書くとWikiっぽくなる。</p>
+
   </main>
 
+  <!-- 右目次 -->
   <aside class="toc">
     <h3>目次</h3>
-    <ul>
-      <li>項目1</li>
-    </ul>
+    <ul id="toc-list"></ul>
   </aside>
 
 </div>
 
 <footer>
-  <p>Footer</p>
+  <p>© yut4k</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
