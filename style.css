@@ -107,6 +107,10 @@ footer {
   height: auto;
 }
 
+img {
+  pointer-events: none;
+}
+
 .caption {
   text-align: center;
   font-size: 14px;
